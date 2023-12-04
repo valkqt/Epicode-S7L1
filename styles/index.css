@@ -1,0 +1,65 @@
+body {
+    background-color: antiquewhite;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+}
+
+input {
+    padding: 0.5rem;
+
+}
+
+label {
+    padding: 1rem 0;
+}
+
+[type="submit"] {
+    margin: 2rem auto;
+    width: 25%;
+}
+
+section {
+
+    width: 33.33%;
+    margin: 3rem auto;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+    background-color: rgb(230, 230, 230);
+
+
+}
+
+img {
+    max-width: 48px;
+    height: auto;
+    margin: 0 1rem;
+    border: 1px solid black;
+}
+
+.showData {
+    display:flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+.showPet {
+    display: flex;
+    align-items: center;
+}
+
+.showPetText {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+}
